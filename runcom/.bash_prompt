@@ -1,0 +1,64 @@
+# Enable tab completion
+source ~/_dotfiles/runcom/git-completion.bash
+
+# Colours
+
+# Black            \e[0;30m
+# Blue             \e[0;34m
+# Green            \e[0;32m
+# Cyan             \e[0;36m
+# Red              \e[0;31m
+# Purple           \e[0;35m
+# Brown            \e[0;33m
+# Gray             \e[0;37m
+# Dark Gray        \e[1;30m
+# Light Blue       \e[1;34m
+# Light Green      \e[1;32m
+# Light Cyan       \e[1;36m
+# Light Red        \e[1;31m
+# Light Purple     \e[1;35m
+# Yellow           \e[1;33m
+# White            \e[1;37m
+
+reset_style='\[\033[00m\]'
+LIGHTGREY=$reset_style'\[\033[0;90m\]'
+LIGHTBLUE=$reset_style'\[\e[1;34m\]'
+LIGHTPINK=$reset_style'\[\e[1;35m\]'
+LIGHTYELLOW=$reset_style'\[\e[1;33m\]'
+COMMANDSTYLE=$reset_style'\[\033[1;29m\]'
+
+# Get the git prompt stuff
+source ~/_dotfiles/runcom/git-prompt.sh
+
+# Prompt variable:
+PS1=$LIGHTGREY'$fill \t\n'$LIGHTBLUE'\u @ \h: '$LIGHTPINK'\W'$LIGHTYELLOW'$(__git_ps1) '$LIGHTBLUE'\$'$COMMANDSTYLE' '
+
+# Reset color for command output
+
+# (this one is invoked every time before a command is executed):
+
+trap 'echo -ne "\033[00m"' DEBUG
+
+function prompt_command {
+	# create a $fill of all screen width minus the time string and a space:
+	let fillsize=${COLUMNS}-11
+	fill=""
+	while [ "$fillsize" -gt "0" ]
+	do
+		fill="-${fill}" # fill with underscores to work on
+		let fillsize=${fillsize}-1
+	done
+
+	# If this is an xterm set the title to user@host:dir
+	case "$TERM" in
+	xterm*|rxvt*)
+		bname=`basename "${PWD/$HOME/~}"`
+		echo -ne "\033]0;${bname}: ${USER}@${HOSTNAME}: ${PWD/$HOME/~}\007"
+		;;
+	*)
+		;;
+	esac
+
+}
+
+PROMPT_COMMAND=prompt_command

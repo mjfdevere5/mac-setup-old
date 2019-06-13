@@ -1,0 +1,7 @@
+# Terminal input profile
+fill="--- "
+LIGHTGREY="\[\033[0;90m\]"
+LIGHTBLUE="\[\e[1;34m\]"
+LIGHTPINK="\[\e[1;35m\]"
+DEFAULT="\[\e[m\]"
+PS1="$LIGHTGREY$fill \t\n$LIGHTBLUE\h$DEFAULT: $LIGHTBLUE\u$DEFAULT $LIGHTPINK\W$DEFAULT $LIGHTBLUE\$$DEFAULT "
