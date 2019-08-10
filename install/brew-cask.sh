@@ -19,7 +19,7 @@ apps=(
     alfred
     anki
     # appcleaner
-    backblaze
+    # backblaze
     dash # remember to set up the Alfred workflow
     dropbox
     evernote
