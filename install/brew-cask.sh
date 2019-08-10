@@ -70,7 +70,6 @@ brew cask install "${qlplugins[@]}"
 
 # # List of apps not available via cask
 # Xcode
-# Bear
 # ClipMenu
 # The Unarchiver
 # ToDoist
