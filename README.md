@@ -20,4 +20,4 @@ For a clean install:
 
 9. In theory, mackup will also sync SublimeText stuff. But if not, basically you need to (a) install Package Manager, (b) install `Theme - Gravity` package and then select the Gravity One theme and the One Dark Gravity color scheme in Preferences, (c) install all the other packages one by one, (d) copy over settings manually
 
-10. To avoid ending on nine steps
+10. Configure Backblaze
