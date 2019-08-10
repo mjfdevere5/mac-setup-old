@@ -1,3 +1,8 @@
+# Ask for the administrator password upfront
+sudo -v
+# Keep-alive: update existing `sudo` time stamp until this has finished
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -12,6 +17,7 @@ apps=(
     git
     # hub # command-line wrapper for git that makes you better at GitHub.
     mackup # Keep your application settings in sync via Dropbox. Sounds clever.
+    ntfs-3g
     # peco # Simplistic interactive filtering tool. Looks cool.
     # python
     tree # depth indented listing of files

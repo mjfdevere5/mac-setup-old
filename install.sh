@@ -15,6 +15,5 @@ ln -sfv "$DOTFILES_DIR/runcom/.bash_prompt" ~
 . "$DOTFILES_DIR/install/brew-cask.sh"
 
 # Run defaults
-. "$DOTFILES_DIR/defaults/defaults_osx.sh"
-# . "$DOTFILES_DIR/defaults/defaults_dock.sh" # Remember we need dockutil in brew.sh to run this
-# . "$DOTFILES_DIR/defaults/defaults_apps.sh" # Currently no defaults written
+. "$DOTFILES_DIR/defaults/defaults_apps.sh"
+. "$DOTFILES_DIR/defaults/defaults_macos.sh"
