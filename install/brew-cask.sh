@@ -34,6 +34,7 @@ apps=(
     grandperspective
     # hammerspoon
     iterm2
+    karabiner-elements
     macdown
     malwarebytes
     microsoft-office
