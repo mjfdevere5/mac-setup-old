@@ -17,7 +17,7 @@ apps=(
     git
     # hub # command-line wrapper for git that makes you better at GitHub.
     mackup # Keep your application settings in sync via Dropbox. Sounds clever.
-    ntfs-3g
+    # ntfs-3g # I can't get this to work. Download Tuxera instead https://gumroad.com/l/lightsoff/
     # peco # Simplistic interactive filtering tool. Looks cool.
     # python
     tree # depth indented listing of files

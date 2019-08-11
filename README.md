@@ -10,7 +10,7 @@ For a clean install:
 
 4. Run the various dotfiles in `install` and `defaults` 
 
-5. Manually install those remaining apps I use which aren't on brew cask: ClipMenu, The Unarchiver, ToDoist
+5. Manually install those remaining apps I use which aren't on brew cask: ClipMenu, The Unarchiver, ToDoist, LightsOff, Tuxera NTFS
 
 6. Log into Dropbox and sync files. Once done, run `mackup restore` to sync settings 
 
