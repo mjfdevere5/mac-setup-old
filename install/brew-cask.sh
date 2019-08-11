@@ -13,7 +13,7 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # Install packages
 apps=(
-    1password
+    # 1password
     # adobe-acrobat-pro # not sure what the difference is between pro and reader
     adobe-acrobat-reader
     alfred
