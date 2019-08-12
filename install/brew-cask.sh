@@ -71,6 +71,7 @@ brew cask install "${qlplugins[@]}"
 
 # # List of apps not available via cask
 # Xcode
+# Fantastical 2
 # LightsOff https://gumroad.com/l/lightsoff/
 # ClipMenu
 # The Unarchiver
