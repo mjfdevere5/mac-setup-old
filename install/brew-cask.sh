@@ -29,8 +29,9 @@ apps=(
     focuswriter
     # github-desktop
     # google-adwords-editor
-    google-backup-and-sync
+    # google-backup-and-sync
     google-chrome
+    google-drive-file-stream
     # googleappengine
     grandperspective
     # hammerspoon
