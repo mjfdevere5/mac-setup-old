@@ -29,7 +29,7 @@ apps=(
     focuswriter
     # github-desktop
     # google-adwords-editor
-    google-backup-and-sync
+    # google-backup-and-sync # doesn't seem to work
     google-chrome
     # googleappengine
     grandperspective
