@@ -43,6 +43,7 @@ apps=(
     mkvtoolnix
     onedrive
     pdf-expert
+    signal
     simplenote
     skype
     slack
@@ -77,4 +78,7 @@ brew cask install "${qlplugins[@]}"
 # LightsOff https://gumroad.com/l/lightsoff/
 # ClipMenu
 # The Unarchiver
+# Shift
 # ToDoist
+# Tuxera NTFS
+# Houseparty? (Didn't check)

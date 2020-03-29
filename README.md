@@ -8,7 +8,7 @@ For a clean install:
 
 3. Check you're happy with the apps it will install and the defaults it will set, then run ./install.sh. It will first create symlinks to `.bash_profile`, `.bashrc`, `.inputrc` (so the Terminal will automatically pull these settings in, whenever it runs), and then install the apps, then install the defaults.
 
-4. Manually install those remaining apps I use which aren't on brew cask: ClipMenu, The Unarchiver, ToDoist, LightsOff, Tuxera NTFS
+4. Manually install those remaining apps I use which aren't on brew cask
 
 5. Log into Dropbox and sync files. Once done, run `mackup restore` to sync settings
 
