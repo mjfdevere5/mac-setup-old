@@ -81,4 +81,5 @@ brew cask install "${qlplugins[@]}"
 # Shift
 # ToDoist
 # Tuxera NTFS
-# Houseparty? (Didn't check)
+# Houseparty? (Didn't check if this could be downloaded via brewk cask)
+# Standard Notes (Didn't check if this could be downloaded via brewk cask)
