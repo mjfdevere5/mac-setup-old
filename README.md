@@ -1,4 +1,4 @@
-_This was how I used to set up my mac. It includes my dotfiles, and some scripts to automate package/app installations and set osx defaults. I've now replaced this with ansible._
+_This was how I used to set up my mac. It includes my dotfiles, and some scripts to automate package/app installations and set osx defaults. I've since replaced this with ansible._
 
 # dotfiles
 
