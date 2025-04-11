@@ -1,3 +1,5 @@
+_This was how I used to set up my mac. It includes my dotfiles, and some scripts to automate package/app installations and set osx defaults. I've now replaced this with ansible._
+
 # dotfiles
 
 For a clean install:
